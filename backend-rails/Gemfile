@@ -81,4 +81,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem 'database_cleaner-active_record', '~> 2.2'
+  gem 'simplecov', require: false
+  gem 'simplecov-html', require: false
+  gem 'simplecov_json_formatter', require: false
 end
